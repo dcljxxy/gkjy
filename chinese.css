@@ -1,0 +1,31 @@
+/* 设置背景颜色 */
+body {
+    background-color: #2c3e50; /* 深色背景 */
+    color: #ecf0f1; /* 亮色字体 */
+    font-family: Arial, sans-serif;
+}
+
+/* 一级标签样式 */
+h1 {
+    color: #e74c3c; /* 红色 */
+}
+
+/* 二级标签样式 */
+h2 {
+    color: #3498db; /* 蓝色 */
+}
+
+/* 三级标签样式 */
+h3 {
+    color: #2ecc71; /* 绿色 */
+}
+
+/* 链接文字样式 */
+a {
+    color: #f1c40f; /* 黄色 */
+    text-decoration: none; /* 去掉下划线 */
+}
+
+a:hover {
+    text-decoration: underline; /* 悬停时显示下划线 */
+}
