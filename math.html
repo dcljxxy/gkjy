@@ -27,11 +27,11 @@
             <h2>数学</h2>
             <div class="question-form">
                 <h3>提问</h3>
-                <form id="chinese-form">
-                    <textarea name="question" placeholder="在这里提问..."></textarea>
-                    <input type="file" name="image">
-                    <button type="submit">提交</button>
-                </form>
+                <form action="http://localhost:3000/upload" method="POST" enctype="multipart/form-data">
+                    <label for="file">选择文件：</label>
+                    <input type="file" id="file" name="file" required />
+                    <button type="submit">上传</button>
+                  </form>
             </div>
             <div class="questions-list" id="chinese-questions">
                 <!-- 问题列表 -->
@@ -51,6 +51,6 @@
         <img src = "/gkjy/OIP (1).jpg" width="500"height="300">
 
     </div>
-    <script src="/gkjy/scripts.js"></script>
+    <script src="/gkjy/app.js"></script>
 </body>
 </html>
